@@ -208,7 +208,7 @@ if (historySlider) {
   });
 }
 
-const heroSliderSpeed = 3000;
+const heroSliderSpeed = 2500;
 
 const bodyStyles = window.getComputedStyle(document.body);
 const fooBar = bodyStyles.getPropertyValue('--hero-slider-speed'); //get
@@ -223,7 +223,7 @@ const heroSlider = new Swiper('.hero-slider', {
   },
   speed: heroSliderSpeed,
   autoplay: {
-    delay: 3000,
+    delay: 2300,
   },
   pagination: {
     el: '.hero__pag',

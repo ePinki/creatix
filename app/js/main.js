@@ -360,7 +360,7 @@ if (historySlider) {
   });
 }
 
-var heroSliderSpeed = 3000;
+var heroSliderSpeed = 2500;
 var bodyStyles = window.getComputedStyle(document.body);
 var fooBar = bodyStyles.getPropertyValue('--hero-slider-speed'); //get
 
@@ -374,7 +374,7 @@ var heroSlider = new Swiper('.hero-slider', {
   },
   speed: heroSliderSpeed,
   autoplay: {
-    delay: 3000
+    delay: 2300
   },
   pagination: {
     el: '.hero__pag',
